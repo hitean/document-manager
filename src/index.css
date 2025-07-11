@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'Gilroy';
+ src: url('./assets/gilroy-bold/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+*{
+  font-family: "Gilroy";
+}
+
+::selection{
+  color: orange;
+}
